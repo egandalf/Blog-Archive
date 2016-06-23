@@ -6,7 +6,7 @@ For those who don't know, Ektron actually provides all the tools necessary to do
 
 ##Prepping your Ektron Site
 
-First, you need to make sure that your app is able to access the Ektron WCF endpoints. When you install Ektron, the default behavior is to add IP restrictions in IIS so that only localhost (127.0.0.1) can access those services. If your app is on the same machine, no worries. Otherwise, you'll have to add your app host IP to the whitelist in IIS.
+First, you need to make sure that your app is able to access the Ektron WCF endpoints (located at [app root]/workarea/services). When you install Ektron, the default behavior is to add IP restrictions in IIS so that only localhost (127.0.0.1) can access those services. If your app is on the same machine, no worries. Otherwise, you'll have to add your app host IP to the whitelist in IIS.
 
 If you're going to be doing any *writing* or accessing any private content between the app and Ektron, it has to be done with an authenticated user. You can either build authentication into your app or use a dedicated account with the proper authorization and restrictions in place; in other words, only allow the necessary permissions and nothing more - *no admins!*
 
