@@ -1,3 +1,5 @@
+> **Deprecated:** This post is archived for reference only. Ektron CMS is end-of-life, and the code, links and versions below are out of date.
+
 #The Search for More Cache
 
 In Spaceballs, just before as Lone Starr departs, the all-seeing, all-knowing Yogurt says to him “God willing, we'll all meet again in Spaceballs 2: The Search for More Money.”
